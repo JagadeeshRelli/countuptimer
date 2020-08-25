@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 cmeter.setBase(SystemClock.elapsedRealtime());
                 cmeter.start();
-                Toast.makeText(MainActivity.this, "started", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "timer started", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 cmeter.stop();
-                Toast.makeText(MainActivity.this, "stopped", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "timer stopped", Toast.LENGTH_SHORT).show();
             }
         });
 
